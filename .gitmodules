@@ -16,3 +16,6 @@
 [submodule "modules/prompt/functions/pure"]
 	path = modules/prompt/external/pure
 	url = https://github.com/sindresorhus/pure.git
+[submodule "modules/completion/conda-zsh-completion"]
+	path = modules/completion/conda-zsh-completion
+	url = https://github.com/esc/conda-zsh-completion.git

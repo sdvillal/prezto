@@ -13,6 +13,7 @@ fi
 
 # Add zsh-completions to $fpath.
 fpath=("${0:h}/external/src" $fpath)
+fpath=("${0:h}/conda-zsh-completion" $fpath)
 
 # Load and initialize the completion system ignoring insecure directories.
 autoload -Uz compinit && compinit -i
