@@ -3,4 +3,5 @@
 #
 
 # Print the message.
-fortune | cowsay -n | lolcat
+# fortune | cowsay -n | lolcat
+fortune | cowsay -n
